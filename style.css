@@ -1,0 +1,106 @@
+
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.header-section{
+    background-image: url(./images/donation1.jpg);
+    background-repeat: no-repeat;
+
+    display: flex;
+
+    background-size: cover;
+    height: 669px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+.first-div{
+    
+    width: 826px;
+    height: 320px;
+    text-align:center;
+    color:white;
+    font-size:larger;
+    
+}
+.first-div a{
+    text-decoration: none;
+    padding: 12px 16px;
+    background-color: #FF5959;
+    color: white;
+   
+}
+
+.first-div h1{
+    font-size: 65px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.first-div p{
+    font-size: 18px;
+    font-weight: normal;
+    
+}
+
+.amount-section{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.amount-container{
+
+    text-align: center;
+}
+
+
+
+.amount-container h1{
+
+    color:#121212;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.amount-flex{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+
+}
+
+
+
+
+.amount-flex h3{
+
+    padding:136px 123px;
+    background-color: #FAFAFA;
+    color:#707070;
+    font-size:30px;
+    font-weight: bold;
+    margin: 5px;
+}
+
+#selected {
+
+    border: 1px solid;
+    border-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
+

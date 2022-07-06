@@ -30,7 +30,7 @@ body{
     font-size:larger;
     
 }
-.first-div a{
+.donate-button{
     text-decoration: none;
     padding: 12px 16px;
     background-color: #FF5959;
@@ -50,57 +50,181 @@ body{
     
 }
 
-.amount-section{
+.generic-flex-section{
 
     display: flex;
     justify-content: center;
     align-items: center;
-
+    flex-direction: column;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
 
 }
 
 .amount-container{
 
     text-align: center;
+   
 }
 
 
 
-.amount-container h1{
+.title{
 
     color:#121212;
     font-weight: bold;
     font-size: 45px;
 }
 
+.description{
 
-.amount-flex{
+    color: #707070;
+    font-weight: regular;
+    font-size: 18px;
 
+}
+
+.rectangle{
+
+    height: 143px;
+    width: 155px;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-
+    align-items: center;
+    border-radius: 3px;
+    background-color: #FAFAFA;
 
 }
 
 
+.rectangle-selected{
+
+    height: 143px;
+    width: 155px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1px;
+    border: 2px solid;
+    border-color: #FF5959;
+    background-color: #FFEEEE;
+    color: #FF5959;
+}
 
 
-.amount-flex h3{
+.text-inside-rectangle{
 
-    padding:136px 123px;
+   
     background-color: #FAFAFA;
     color:#707070;
     font-size:30px;
     font-weight: bold;
-    margin: 5px;
+    padding: 10px 10px;
+    
+
+
 }
 
-#selected {
+.text-inside-rectangle-selected{
 
-    border: 1px solid;
-    border-color: #FF5959;
+   
     background-color: #FFEEEE;
     color: #FF5959;
+
+    font-size:30px;
+    font-weight: bold;
+    padding: 10px 10px;
+    
+
+
+}
+
+
+
+
+.generic-row-flex{
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+
+
+}
+
+
+
+
+.amount-container-2 input {
+
+        border: 0;
+        border-bottom: 1px solid #B3B3B3;
+        outline: none;
+        color:#B3B3B3; 
+        width: 765px;
+        text-align: center;
+        margin-bottom: 24px;
+        margin-top: 24px;
+   
+
+}
+
+.amount-container-2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5;
+    padding: 2px;
+}
+
+
+
+.rectangle-2{
+
+ 
+
+        height: 352px;
+        width: 360px;
+        display: flex;
+        padding: 12px;
+        align-items: left;
+        text-align: left;
+        flex-direction: column;
+        
+    
+
+}
+
+.rectangle-3{
+
+    width: 809px;
+    height: 200px;
+    background-color: #FFF4d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.Email{
+
+    display: flex;
+
+
+}
+
+
+.Email input::placeholder{
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    color:#AA9F9F;
+
 }
 
